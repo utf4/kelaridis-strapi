@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/welcome-message",
+      "handler": "welcome-message.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/welcome-message",
+      "handler": "welcome-message.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/welcome-message",
+      "handler": "welcome-message.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

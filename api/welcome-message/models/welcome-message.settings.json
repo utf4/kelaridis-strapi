@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "welcome_messages",
+  "info": {
+    "name": "Welcome Message",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

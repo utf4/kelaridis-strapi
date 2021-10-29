@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stats",
+  "info": {
+    "name": "Stats"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stat_value": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
